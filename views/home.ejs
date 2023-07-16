@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
+<%- include('partials/head') %>
+
+<%- include('partials/navbar') %>
+
+<div class="div-conatiner">
     <h1>The Home Page <%= 'Tally'.toUpperCase()%></h1>
     <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, odit reprehenderit enim atque nam numquam quia voluptatum voluptas officiis rem itaque, libero corrupti. Incidunt optio quisquam eos blanditiis, sit sapiente?
@@ -15,6 +11,6 @@
     <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro delectus distinctio, ab nulla repudiandae, eos ipsa ipsum iusto illum esse hic nesciunt iste quam dolor similique! Maxime ea magnam eos!
     </p>
-
-</body>
-</html>
+</div>
+    
+<%- include('partials/footer') %>
